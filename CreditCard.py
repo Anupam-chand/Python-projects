@@ -47,7 +47,7 @@ legit.Amount.describe()
 fraud.Amount.describe()
 
 # compare the values for both transactions
-credit_card_data.groupy('Class').mean()
+credit_card_data.groupby('Class').mean()
 
 # Under-Sampling
 
@@ -65,7 +65,7 @@ new_dataset.head()
 
 new_dataset.tail()
 
-new_dataset['Class'].value.counts()
+new_dataset['Class'].value_counts()
 
 new_dataset.groupby('Class').mean()
 
@@ -77,7 +77,7 @@ print(X)
 
 print(Y)
 
-#Split the data intp Training data & Testing Data
+#Split the data into Training data & Testing Data
 X_train , X_test , Y_train , Y_test = train_test_split(X, Y, test_size = 0.2 , stratify = Y , random_state = 2)
 
 print(X.shape, X_train.shape, X_test.shape)
