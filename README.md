@@ -1,2 +1,7 @@
-Machine Learning Projects \n
-In this repository , We are going to do ML Projects.
+<ul>
+  <li>Machine Learning Projects</li>
+  <li>In this repository , We are going to do ML Projects.</li>
+</ul>
+
+
+
