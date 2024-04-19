@@ -59,7 +59,6 @@ legit_sample = legit.sample(n = 492)
 # Concatenating two DataFrames
 
 new_dataset = pd.concat([legit_sample , fraud], axis = 0)    
-# if axis = 0 then all the 492 values will be added below the legit_sample  , if axis = 1 then all the 492 values will be added column wise
 # conclusion :- axis = 0 means "rows" and axis = 1 means "columns"
 
 new_dataset.head()
